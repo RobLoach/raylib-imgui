@@ -7,6 +7,9 @@ Use [dear imgui](https://github.com/ocornut/imgui) in [raylib](https://www.rayli
 ## Build
 
 ```
+git clone https://github.com/RobLoach/raylib-imgui.git
+cd raylib-imgui
+git submodule update --init
 mkdir build
 cd build
 cmake ..
